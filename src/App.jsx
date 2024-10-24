@@ -1,3 +1,16 @@
+import cevents from "./assets/images/cevents.jpg";
+import weddingmeal from "./assets/images/weddingmeal.jpg";
+import birthdayparty from "./assets/images/birthdayparty.jpg";
+import barservice from "./assets/images/barservice.jpg";
+import drop from "./assets/images/drop.jpg";
+import staff from "./assets/images/staff.jpg";
+import Exhibitions from "./assets/images/Exhibitions.png";
+import Trousseau from "./assets/images/Trousseau.jpg";
+import Venue2 from "./assets/images/venue-gallery/2.jpg";
+import Venue4 from "./assets/images/venue-gallery/4.jpg";
+import Venue5 from "./assets/images/venue-gallery/5.jpg";
+import Venue6 from "./assets/images/venue-gallery/6.jpg";
+
 function App() {
   return (
     <>
@@ -123,7 +136,7 @@ function App() {
           </div>
           <div className="service-container">
             <div className="service">
-              <img src="cevents.jpg" alt="img" />
+              <img src={cevents} alt="img" />
               <h3>Corporate events</h3>
               <p>
                 Adida Events delivers top-notch corporate events tailored to
@@ -137,7 +150,7 @@ function App() {
             </div>
 
             <div className="service">
-              <img src="weddingmeal.jpg" alt="img" />
+              <img src={weddingmeal} alt="img" />
               <h3>Wedding meal</h3>
               <p>
                 Enjoy a delicious wedding meal with Adida Events, where every
@@ -150,7 +163,7 @@ function App() {
             </div>
 
             <div className="service">
-              <img src="birthdayparty.jpg" alt="img" />
+              <img src={birthdayparty} alt="img" />
               <h3>Birthday parties</h3>
               <p>
                 Celebrate your birthday with Adida Events. We turn your party
@@ -163,7 +176,7 @@ function App() {
             </div>
 
             <div className="service">
-              <img src="barservice.jpg" alt="img" />
+              <img src={barservice} alt="img" />
               <h3>Bar service</h3>
               <p>
                 Enhance your event with Adida Events' bar services. Our expert
@@ -176,7 +189,7 @@ function App() {
             </div>
 
             <div className="service">
-              <img src="drop.jpg" alt="img" />
+              <img src={drop} alt="img" />
               <h3>Drop off catering</h3>
               <p>
                 Enjoy top-quality meals with Adida Events' drop-off catering. We
@@ -189,7 +202,7 @@ function App() {
             </div>
 
             <div className="service">
-              <img src="staff.jpg" alt="img" />
+              <img src={staff} alt="img" />
               <h3>Staff services</h3>
               <p>
                 Receive exceptional service with Adida Events' staff. Our
@@ -202,7 +215,7 @@ function App() {
               {/* <button className="services-btn" id="servicesBtn">book now/button> */}
             </div>
             <div className="service">
-              <img src="Exhibitions.png" alt="img" />
+              <img src={Exhibitions} alt="img" />
               <h3>Exhibitions</h3>
               <p>
                 Adida Events Exhibition service guarantees a flawless event. We
@@ -215,7 +228,7 @@ function App() {
               {/* <button className="services-btn" id="servicesBtn">book now</button> */}
             </div>
             <div className="service">
-              <img src="Trousseau.jpg" alt="img" />
+              <img src={Trousseau} alt="img" />
               <h3>Trousseau Packing</h3>
               <p>
                 Adida Events offers exquisite Trousseau packing services,
@@ -241,33 +254,17 @@ function App() {
           <div className="gallery-wrapper">
             <button className="left-btn">&#10094;</button>
             <div className="owl-carousel gallery-carousel">
-              <a
-                href="./img/venue-gallery/2.jpg"
-                className="venobox"
-                data-gall="gallery-carousel"
-              >
-                <img src="./img/venue-gallery/2.jpg" alt="" />
+              <a href={Venue2} className="venobox" data-gall="gallery-carousel">
+                <img src={Venue2} alt="" />
               </a>
-              <a
-                href="./img/venue-gallery/4.jpg"
-                className="venobox"
-                data-gall="gallery-carousel"
-              >
-                <img src="./img/venue-gallery/4.jpg" alt="" />
+              <a href={Venue4} className="venobox" data-gall="gallery-carousel">
+                <img src={Venue4} alt="" />
               </a>
-              <a
-                href="./img/venue-gallery/5.jpg"
-                className="venobox"
-                data-gall="gallery-carousel"
-              >
-                <img src="./img/venue-gallery/5.jpg" alt="" />
+              <a href={Venue5} className="venobox" data-gall="gallery-carousel">
+                <img src={Venue5} alt="" />
               </a>
-              <a
-                href="./img/venue-gallery/6.jpg"
-                className="venobox"
-                data-gall="gallery-carousel"
-              >
-                <img src="./img/venue-gallery/6.jpg" alt="" />
+              <a href={Venue6} className="venobox" data-gall="gallery-carousel">
+                <img src={Venue6} alt="" />
               </a>
             </div>
             <button className="right-btn">&#10095;</button>

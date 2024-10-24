@@ -8,7 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-*{
+* {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
@@ -18,7 +18,6 @@ body {
   background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
-  
 }
 .gallery-wrapper {
   position: relative;
@@ -31,7 +30,8 @@ body {
   overflow: hidden;
 }
 
-.left-btn, .right-btn {
+.left-btn,
+.right-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -46,7 +46,8 @@ body {
   background: rgba(0, 0, 0, 0.85) !important;
 }
 
-.venobox .vbox-next, .venobox .vbox-prev {
+.venobox .vbox-next,
+.venobox .vbox-prev {
   color: #fff !important;
   background: rgba(0, 0, 0, 0.5) !important;
 }
@@ -68,7 +69,8 @@ body {
   position: relative;
 }
 
-.left-btn, .right-btn {
+.left-btn,
+.right-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -87,7 +89,6 @@ body {
 .right-btn {
   right: 10px;
 }
-
 
 /* video */
 
@@ -153,8 +154,6 @@ body {
   right: 10px;
 } */
 
-
-
 /* video */
 
 /* testimonial crusoel */
@@ -174,7 +173,6 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
-
 
 .owl-nav {
   position: absolute;
@@ -300,7 +298,7 @@ h6 {
 }
 
 .section-header::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 60px;
@@ -426,7 +424,6 @@ h6 {
   min-width: 180px;
 }
 
-
 /* Nav Menu Arrows */
 
 .sf-arrows .sf-with-ul {
@@ -452,9 +449,7 @@ h6 {
   float: right;
   margin: 0;
   display: flex;
-  
 }
-
 
 /* Nav Meu Styling */
 
@@ -551,9 +546,8 @@ h6 {
   margin: 0;
 }
 
-
 /* book now button */
-.form-btn{
+.form-btn {
   color: white;
   background-color: #f82249;
   transform: translate(-50px, 0px);
@@ -562,9 +556,8 @@ h6 {
   bottom: 5px;
   left: 50%;
   border-radius: 15px;
-
 }
-.form-btn:hover{
+.form-btn:hover {
   cursor: pointer;
   background-color: #f82249;
 }
@@ -575,7 +568,6 @@ h6 {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-
 }
 .open-modal-btn:hover {
   background-color: #f82249;
@@ -590,8 +582,8 @@ h6 {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   padding-top: 60px;
 }
 /* Modal Content/Box */
@@ -624,7 +616,9 @@ label {
   display: block;
   margin: 10px 0 5px;
 }
-input, select, textarea {
+input,
+select,
+textarea {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -635,7 +629,7 @@ input, select, textarea {
   transform: translate(-50px, 0px);
   position: absolute;
   left: 50%;
-  bottom: 10PX;
+  bottom: 10px;
   background-color: #f82249;
   color: white;
   padding: 10px 15px;
@@ -762,7 +756,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/gallery/background1.jpg) top center;
+  background: url("images/gallery/background1.jpg") top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -830,7 +824,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -846,7 +840,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
@@ -875,7 +869,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -948,7 +942,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("images/gallery/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -977,24 +971,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
-  
 }
 
-#about .row{
-  
-  width:200%;
- 
-}
-
-#about .container{
+#about .row {
   width: 200%;
-  
+}
+
+#about .container {
+  width: 200%;
 }
 
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-
 
 #services {
   background-color: #fff;
@@ -1002,12 +991,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   margin: 40px auto;
-  max-width:100%;
+  max-width: 100%;
   border-radius: 10px;
 }
-
-
-
 
 #services h2::after {
   /* content: ''; */
@@ -1066,16 +1052,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   .service-container {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .service {
-      width: 90%;
+    width: 90%;
   }
 }
-
-
 
 /*--------------------------------------------------------------
 # Gallery Section
@@ -1136,11 +1120,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 8px;
 }
 
-.parentdiv{
+.parentdiv {
   display: flex;
   justify-content: space-around;
 }
-
 
 .testimonial {
   /* margin: 20px 0;
@@ -1154,7 +1137,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: transform 0.9s;
   max-width: 350px;
   margin: 20px;
-  text-align:center;
+  text-align: center;
 }
 
 .testimonial p {
@@ -1169,7 +1152,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: normal;
   color: #777;
 }
-
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -1221,7 +1203,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form #sendmessage {
   color: green;
-  border: 1px solid  gray;
+  border: 1px solid gray;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1318,7 +1300,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
-
 #footer .footer-top {
   background: #040919;
   padding: 60px 0 30px 0;
@@ -1346,7 +1327,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
-  
+
   /* margin-bottom: 0; */
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -1459,12 +1440,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
-#footer .row{
+#footer .row {
   display: flex;
   justify-content: space-evenly;
 }
-
-
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
